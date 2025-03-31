@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>color.scheme.IrohTheCatRustyMidnight</id>
+    <name>Iroh The Cat Rusty Midnight</name>
+    <version>0.1</version>
+    <vendor email="sergioapelayoe@gmail.com" url="https://github.com/sape94">sape94</vendor>
+    <description><![CDATA[
+        Iroh the Cat Rusty Midnight theme. A clean JetBrains color theme specialized for Rust Rover named after my cat: Iroh [Midnight theme.]
+    ]]></description>
+    <change-notes><![CDATA[
+        Initial release.
+    ]]></change-notes>
+    <idea-version since-build="243.0"/> 
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/themes/IrohTheCatRustyMidnight.icls"/>
+    </extensions>
+</idea-plugin>
